@@ -1,3 +1,5 @@
+# Data: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+
 import cPickle
 import numpy as np
 import os

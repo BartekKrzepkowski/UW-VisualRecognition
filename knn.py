@@ -1,3 +1,8 @@
+# k=1:  L1=acc_val/acc_test  L2=acc_val/acc_test
+# k=3:  L1=acc_val/acc_test  L2=acc_val/acc_test
+# k=5:  L1=acc_val/acc_test  L2=acc_val/acc_test
+# k=7:  L1=acc_val/acc_test  L2=acc_val/acc_test
+
 from cifar10 import load_CIFAR10
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier

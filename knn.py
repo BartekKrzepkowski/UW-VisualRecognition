@@ -1,7 +1,7 @@
-# k=1:  L1=<acc_val/acc_test>  L2=<acc_val/acc_test>
-# k=3:  L1=<acc_val/acc_test>  L2=<acc_val/acc_test>
-# k=5:  L1=<acc_val/acc_test>  L2=<acc_val/acc_test>
-# k=7:  L1=<acc_val/acc_test>  L2=<acc_val/acc_test>
+# k=1:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
+# k=3:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
+# k=5:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
+# k=7:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
 # for L1 choose k=<1/3/5/7> on <val/test> set
 # for L2 choose k=<1,3,5,7> on <val/test> set
 

@@ -27,6 +27,7 @@ def load_data():
 Xtr, Ytr, Xva, Yva, Xte, Yte = load_data()
 ntest = Xte.shape[0]
 
+# NN - please do not use any library
 print "Nearest Neighbor"
 pred_nn_va_l1 = ...  # TODO
 pred_nn_va_l2 = ...  # TODO
@@ -37,6 +38,7 @@ print confusion_matrix(pred_nn_te_l1)  # TODO
 print "Accuracy L2:", accuracy(pred_nn_va_l2), accuracy(pred_nn_te_l2)  # TODO
 print confusion_matrix(pred_nn_te_l2)  # TODO
 
+# k-NN - implement (preferred) or apply from a library (allowed)
 for k in [1,3,5,7]:
     print "k-NearestNeighbors for k =",k
     KNeighborsClassifier ...  # TODO

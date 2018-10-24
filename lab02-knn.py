@@ -1,9 +1,16 @@
-# k=1:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
-# k=3:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
-# k=5:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
-# k=7:  L1=<acc_val>/<acc_test>  L2=<acc_val>/<acc_test>
-# for L1 choose k=<1/3/5/7> on <val/test> set
-# for L2 choose k=<1,3,5,7> on <val/test> set
+# TODO:
+# k=1:  L1=<accuracy_on_val_set>/<accuracy_on_test_set>  L2=<accuracy_on_val_set>/<accuracy_on_test_set>
+# k=3:  L1=<accuracy_on_val_set>/<accuracy_on_test_set>  L2=<accuracy_on_val_set>/<accuracy_on_test_set>
+# k=5:  L1=<accuracy_on_val_set>/<accuracy_on_test_set>  L2=<accuracy_on_val_set>/<accuracy_on_test_set>
+# k=7:  L1=<accuracy_on_val_set>/<accuracy_on_test_set>  L2=<accuracy_on_val_set>/<accuracy_on_test_set>
+# For L1 metric: the algorithm should choose k=<1/3/5/7> on <val/test> set
+# For L2 metric: the algorithm should choose k=<1/3/5/7> on <val/test> set
+
+
+# **** Lab. 2 ****
+# CIFAR10: implement (preferred) or apply (allowed) k-Nearest Neighbor {1,3,5,7} with L1 and L2 metrics and report accuracy for validation and test sets, along with confusion matrices for the test set.
+# Useful: sklearn.neighbors.KNeighborsClassifier, sklearn.metrics.accuracy_score, sklearn.metrics.confusion_matrix .
+
 
 from cifar10 import load_CIFAR10
 import numpy as np
